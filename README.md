@@ -21,11 +21,11 @@
     <a href=https://earthdailyagro.com/><strong>Who we are</strong></a>
     <br />
     <br />
-    <a href=https://github.com/GEOSYS/Examples-and-showcases>Project description</a>
+    <a href=https://github.com/GEOSYS/Studies-and-Analysis/Project description</a>
     ·
-    <a href=https://github.com/GEOSYS/Examples-and-showcases/issues>Report Bug</a>
+    <a href=https://github.com/GEOSYS/Studies-and-Analysis/issues>Report Bug</a>
     ·
-    <a href=https://github.com/GEOSYS/Examples-and-showcases/issues>Request Feature</a>
+    <a href=https://github.com/GEOSYS/Studies-and-Analysis/issues>Request Feature</a>
   </p>
 </p>
 
@@ -60,7 +60,7 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#examples">Examples</a></li>
+    <li><a href="#examples">Content</a></li>
     <li><a href="#support-development">Support development</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -105,26 +105,24 @@ To access and try available notebooks, you can either fork the current repo and 
 
 ### Configuration
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
    
    
 <!-- EXAMPLES -->
-## Examples
+## Content 
 
-### <geosys/> Integration
+### Cloud Mask Performance
 
 <p align="left">
-This set of examples will focus on how to integrate data, metrics and analytics from the &ltgeosys/&gt platform into your own solutions. 
+This analysis will compare public and EarthDaily Agro Cloud maskd to a reference dataset manually digitized to highlight over and under detection performance of each model. 
 </p>
 
 Here are the available examples:
-- Integrate field level map (NDVI...) into most common online GIS library like Openlayers, Leaflet, or other JS libraries. See
-[code example  ](https://github.com/GEOSYS/Examples-and-showcases/tree/main/Field%20map%20web%20integration%20showcase)
-- Get inputs to feed your Python models using GeosysPy. See
-[notebook  ](https://github.com/GEOSYS/Examples-and-showcases/blob/main/Notebooks/GeosysPy-examples.ipynb)
+- Please add description here...
+[Cloud Mask Benchmark](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/Cloud-Mask-Performance)
 
-### Create new analytic based on <geosys/> metric 
+
+### Publication and conference contribution
 <p align="left">
 This set of examples will focus on how to create new analytics combining &ltgeosys/&gt data feed, your data and business logic to create easy to use and value added analytics. 
 </p>
