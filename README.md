@@ -36,7 +36,7 @@
 [![Youtube][youtube-shield]][youtube-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-  
+
 </div>
 
 <!--[![Stargazers][GitStars-shield]][GitStars-url]-->
@@ -189,8 +189,8 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [stars-shield]: https://img.shields.io/github/stars/qgis-plugin/repo.svg?style=plastic&logo=appveyor
 [stars-url]: https://github.com/github_username/repo/stargazers
 [issues-shield]: https://img.shields.io/github/issues/GEOSYS/qgis-plugin/repo.svg?style=social
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/GEOSYS/qgis-plugin
+[issues-url]: https://opensource.org/licenses/MIT
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
 [license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=social&logo=linkedin
 [linkedin-url]: https://www.linkedin.com/company/earthdailyagro/mycompany/
@@ -204,6 +204,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [GitStars-url]: https://img.shields.io/github/stars/GEOSYS?style=social
 [CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
 [CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
+
 
 
 
