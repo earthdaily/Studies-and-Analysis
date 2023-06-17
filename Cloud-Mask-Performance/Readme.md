@@ -50,16 +50,8 @@
 <details close>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#context">Context</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
+    <li><a href="#context">Context</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#examples">Examples</a></li>
     <li><a href="#support-development">Support development</a></li>
     <li><a href="#license">License</a></li>
@@ -77,25 +69,64 @@ The followinfg study contains a python  notebook python comparing cloud masks fr
 - WQR : Reference mask based on human-corrected ACM mask (World Quality Reference)
 
 
-<!-- GETTING STARTED -->
-## Getting Started
+<!-- DATASETS -->
+## Datasets
 
-### Prerequisites
 
- <p align="left">
-Use of this project requires valids credentials from the &ltgeosys/&gt platform . If you need to get trial access, please register <a href=https://earthdailyagro.com/geosys-api/#get-started>here</a>.
-</p>
-<!-- CONTACT -->
-## Contact
+
+<!-- SCLINTERPREATION -->
+## SCL Interpretation
 
 For any additonal information, please <a href="mailto: sales@earthdailyagro.com">email us</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+<!-- ANALYSIS -->
+## Analysis
+
+The initial step is to create a conda environement to use the notebook. You can use the file requirements.txt.
+```
+conda create --name myenv --file requirements.txt
+```
+ 
+1 - open a AWS session
+<p align="center">
+  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/NoteBookCode.png?raw=true">
+</p>
+
+2 - List available data on a dedicated bucket in AWS S3
+<p align="center">
+  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/assetlist.png?raw=true">
+</p>
+The result is a dataframe with the S3 URI of ACM, WQR and SCL mask.
+
+3 -Compute confusion matrix from the dataframe (process time : 2 minutes by dataset)
+<p align="center">
+  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/ComputeMatrix.png?raw=true">
+</p>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+<!-- RESULTS -->
+## Results
+
+Following are the result on 5 datasets (time process => 10min)
+
+| Comparison             |  Confusion Matrix |
+:-------------------------:|:-------------------------:
+ACM vs WQR | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/ACMWQR.png?raw=true">
+SCL vs WQR | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/SCLWQR.png?raw=true">
+SCL vs ACM|  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/SCLACM.png?raw=true">
+
+## Contact
+
+For any additonal information, please [email us](mailto:sales@earthdailyagro.com).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 <!-- COPYRIGHTs -->
 ## Copyrights
 
-© 2022 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
+© 2023 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
