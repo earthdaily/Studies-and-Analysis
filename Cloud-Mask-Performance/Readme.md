@@ -51,10 +51,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#context">Context</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#examples">Examples</a></li>
-    <li><a href="#support-development">Support development</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#datasets">Datasets</a></li>
+    <li><a href="#sclinterpretation">SCL Interpretation</a></li>
+    <li><a href="analysis">Analysis</a></li>
+    <li><a href="#results">Results</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#copyrights">Copyrights</a></li>
   </ol>
@@ -68,18 +68,41 @@ The followinfg study contains a python  notebook python comparing cloud masks fr
 - SCL : Sentinel-2 L2A Scene Classification
 - WQR : Reference mask based on human-corrected ACM mask (World Quality Reference)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- DATASETS -->
 ## Datasets
+The datasets are availables in the following bucket AWS S3: https://clear-mask-quality-comparer.s3-us-east-2.amazonaws.com/
 
+Each dataset will have its own folder within the bucket, containing the ACM and WQR mask. The S3 URI of the SCL mask can be deduced from the dataset's name.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- SCLINTERPREATION -->
 ## SCL Interpretation
+The table below details our interpretation of the SCL mask for comparison with the ACM mask.
+<p align="center">
+  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/SCLClasses.png?raw=true">
+</p>
 
-For any additonal information, please <a href="mailto: sales@earthdailyagro.com">email us</a>
+| Label | SCL   classification   |  SCL   classification for analysis (equivalent to the ACM interpretation) |
+|-------|------------------------|---------------------------------------------------------------------------|
+| 0     | NO_DATA                | NO_DATA                                                                   |
+| 1     | SATURATED_OR_DEFECTIVE | CLEAR                                                                     |
+| 2     | DARK_AREA_PIXELS       | CLEAR                                                                     |
+| 3     | CLOUD_SHADOWS          | CLOUD                                                                     |
+| 4     | VEGETATION             | CLEAR                                                                     |
+| 5     | NOT_VEGETATED          | CLEAR                                                                     |
+| 6     | WATER                  | CLEAR                                                                     |
+| 7     | UNCLASSIFIED           | CLEAR                                                                     |
+| 8     | CLOUD_MEDIUM_PROB      | CLOUD                                                                     |
+| 9     | CLOUD_HIGH_PROB        | CLOUD                                                                     |
+| 10    | THIN_CIRRUS            | CLOUD                                                                     |
+| 11    | SNOW                   | CLOUD                                                                     |
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- ANALYSIS -->
 ## Analysis
 
@@ -105,6 +128,7 @@ The result is a dataframe with the S3 URI of ACM, WQR and SCL mask.
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- RESULTS -->
 ## Results
 
@@ -115,6 +139,8 @@ Following are the result on 5 datasets (time process => 10min)
 ACM vs WQR | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/ACMWQR.png?raw=true">
 SCL vs WQR | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/SCLWQR.png?raw=true">
 SCL vs ACM|  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Cloud-Mask-Performance/Images/SCLACM.png?raw=true">
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contact
 
@@ -144,8 +170,8 @@ For any additonal information, please [email us](mailto:sales@earthdailyagro.com
 [stars-url]: https://github.com/github_username/repo/stargazers
 [issues-shield]: https://img.shields.io/github/issues/GEOSYS/qgis-plugin/repo.svg?style=social
 [issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/GEOSYS/qgis-plugin
-[license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
+[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: https://opensource.org/licenses/MIT
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=social&logo=linkedin
 [linkedin-url]: https://www.linkedin.com/company/earthdailyagro/mycompany/
 [twitter-shield]: https://img.shields.io/twitter/follow/EarthDailyAgro?style=social
