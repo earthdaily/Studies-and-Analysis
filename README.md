@@ -191,7 +191,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [issues-shield]: https://img.shields.io/github/issues/GEOSYS/qgis-plugin/repo.svg?style=social
 [issues-url]: https://opensource.org/licenses/MIT
 [license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
-[license-url]: https://www.gnu.org/licenses/gpl-3.0.en.html
+[license-url]: https://opensource.org/licenses/MIT
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=social&logo=linkedin
 [linkedin-url]: https://www.linkedin.com/company/earthdailyagro/mycompany/
 [twitter-shield]: https://img.shields.io/twitter/follow/EarthDailyAgro?style=social
