@@ -68,8 +68,8 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+<!-- ABOUT THE REPOSITORY -->
+## About The Repository
 
 EarthDaily Agro is the agricultural analysis division of EartDaily Analytics. Learn more about Earth Daily at [EarthDaily Analytics | Satellite imagery & data for agriculture, insurance, surveillance](https://earthdaily.com/).  EarthDaily Agro uses satellite imaging to provide advanced analytics to mitigate risk and increase efficiencies – leading to more sustainable outcomes for the organizations and people who feed the planet.
 <p align="center">
@@ -88,34 +88,25 @@ The current project aims to provide samples, snippets and examples on how to int
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTENT -->
 ## Content 
 
 ### Cloud Mask Performance
 
 <p align="left">
-This analysis will compare public and EarthDaily Agro Cloud maskd to a reference dataset manually digitized to highlight over and under detection performance of each model. 
+This analysis will compare public and EarthDaily Agro Cloud maskd to a reference dataset manually digitized to highlight over and under detection performance of each model. [More details here](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/Cloud-Mask-Performance)
 </p>
-
-Here are the available examples:
-- Please add description here...
-[Cloud Mask Benchmark](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/Cloud-Mask-Performance)
-
 
 ### Publication and conference contribution
 <p align="left">
-This set of examples will focus on how to create new analytics combining &ltgeosys/&gt data feed, your data and business logic to create easy to use and value added analytics. 
+Here is various content shared during conferences and tradeshows
 </p>
 
-Here are the available examples:
-- Create field level warning based on weather information. See
-[notebook  ](https://github.com/GEOSYS/Examples-and-showcases/blob/main/Notebooks/Weather-field-analytic-model.ipynb)
-
+Content available:
+- AWS Summit Toronto 2023 [See presentation](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/AWS-Summit-Toronto2023)
+- More content coming soon...
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
@@ -166,9 +157,3 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [GitStars-url]: https://img.shields.io/github/stars/GEOSYS?style=social
 [CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
 [CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
-
-
-
-
-
-
