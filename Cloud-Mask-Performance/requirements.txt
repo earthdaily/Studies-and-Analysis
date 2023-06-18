@@ -1,0 +1,4 @@
+rasterio
+scikit-learn
+boto3
+matplotlib
