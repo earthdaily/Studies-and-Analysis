@@ -2,3 +2,7 @@ rasterio
 scikit-learn
 boto3
 matplotlib
+pandas
+ipykernel
+geos
+proj
