@@ -1,0 +1,8 @@
+requests
+pandas
+geopandas
+numpy
+datetime
+python-dateutil
+pyshp
+getpasse4
