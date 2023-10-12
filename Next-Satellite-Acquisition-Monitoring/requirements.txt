@@ -2,7 +2,7 @@ requests
 pandas
 geopandas
 numpy
-datetime
+ipykernel
 python-dateutil
 pyshp
-getpass4
+pip
