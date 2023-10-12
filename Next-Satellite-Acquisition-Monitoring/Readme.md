@@ -98,7 +98,11 @@ The initial step is to create a conda environement to use the notebook. You can 
 ```
 conda create --name myenv --file requirements.txt
 ```
-Then define your path.
+Then 
+```
+python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
+```
+And define your path.
  
 1 - log in on Geosys API & Earth Spectrator API with your credentials
 
