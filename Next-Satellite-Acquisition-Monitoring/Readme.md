@@ -107,7 +107,9 @@ And define your path.
 1 - log in on Geosys API & Earth Spectrator API with your credentials
 
 username = '*****'
+
 password = '*****'
+
 api_key_earth_spectator = '*****'
 
 2 - Import your fields, 3 options:
