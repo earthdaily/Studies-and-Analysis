@@ -102,6 +102,9 @@ Then
 ```
 python -m ipykernel install --user --name myenv --display-name "Python (myenv)"
 ```
+```
+conda activate myenv
+```
 And define your path.
  
 1 - log in on Geosys API & Earth Spectrator API with your credentials
