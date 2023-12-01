@@ -125,7 +125,7 @@ The result is two shapefiles:
 
 4- Create the confusion matrix
 <p align="center">
-  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/0230116_UK_final_matrix_1.png?raw=true">
+  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/0230116_UK_final_matrix_1.JPG?raw=true">
 </p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
