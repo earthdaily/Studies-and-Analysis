@@ -1,0 +1,8 @@
+os
+glob
+osgeo
+geopandas
+rasterio
+pandas
+numpy
+matplotlib
