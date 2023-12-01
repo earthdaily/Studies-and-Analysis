@@ -16,7 +16,7 @@
  <h1 align="center">EarthDailyAgro Auto Cloud Mask quality</h3>
 
   <p align="center">
-    Cloud mask comparison highlighting how Earthdaily Agro ACM accuracy is more than 90% per month on Sentinel-2 images
+    Cloud mask comparison highlighting how EarthDaily Agro ACM accuracy is more than 90% per month on Sentinel-2 images
     <br />
     <a href=https://earthdailyagro.com/><strong>Who we are</strong></a>
     <br />
