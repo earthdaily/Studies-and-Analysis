@@ -109,8 +109,8 @@ conda create --name myenv --file requirements.txt
 <p align="center">
 </p>
 The result is two shapefiles: 
-- fields with clear coverage using EDAgro ACM mask
-- fields with cloud coverage using EDAgro ACM mask
+- fields with clear coverage using EDAgro ACM mask (ACM average = 1)
+- fields with cloud coverage using EDAgro ACM mask (ACM average > 1)
 
 2 - Intersect Fields with HQco masks and merge results
 <p align="center">
