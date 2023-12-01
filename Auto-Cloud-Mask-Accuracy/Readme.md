@@ -132,11 +132,20 @@ The result is two shapefiles:
 <!-- RESULTS -->
 ## Results
 
-Following are the result on 5 datasets (time process => 10min)
+Following are the result this dataset (time process => 2min)
+Analysis of ACM vs HQco: 
+accuracy 98.0%, over cloud detection 0.0%, under cloud detection 2.0%
+
+- Percent of fields clear in HQco and ACM = 2.0%
+- Percent of fields clear in ACM and cloud in HQco = 2.0%
+- Percent of fields clear in HQco and cloud in ACM = 0.0%
+- Percent of fields cloud in HQco and ACM = 96.0%
+
+
 
 | Comparison             |  Confusion Matrix |
 :-------------------------:|:-------------------------:
-ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/20230116_UK_final_matrix.png?raw=true">
+ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/20230116_UK_final_matrix_1.JPG?raw=true">
 ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/20230116_UK_final_matrix.png?raw=true">
 
 Key outcomes of the analysis:
