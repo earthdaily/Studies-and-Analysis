@@ -133,8 +133,8 @@ The result is two shapefiles:
 ## Results
 
 Following are the result this dataset (time process => 2min)
-Analysis of ACM vs HQco: 
-accuracy 98.0%, over cloud detection 0.0%, under cloud detection 2.0%
+
+Analysis of ACM vs HQco: accuracy 98.0%, over cloud detection 0.0%, under cloud detection 2.0%
 
 - Percent of fields clear in HQco and ACM = 2.0%
 - Percent of fields clear in ACM and cloud in HQco = 2.0%
