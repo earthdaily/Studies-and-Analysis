@@ -94,7 +94,13 @@ The current project aims to provide samples, snippets and examples on how to int
 ### Cloud Mask Performance
 
 <p align="left">
-This analysis will compare public and EarthDaily Agro Cloud maskd to a reference dataset manually digitized to highlight over and under detection performance of each model. [More details here](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/Cloud-Mask-Performance)
+This analysis will compare public and EarthDaily Agro Cloud masks to a reference dataset manually digitized to highlight over and under detection performance of each model. [More details here](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/Cloud-Mask-Performance)
+</p>
+
+### Auto Cloud Mask Accuracy
+
+<p align="left">
+This analysis will compare EarthDaily Agro Cloud masks to a reference dataset manually digitized to highlight Earthdaily Agro ACM accuracy (more than 90% per month on Sentinel-2 images). [More details here](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/Auto-Cloud-Mask-Accuracy)
 </p>
 
 ### Publication and conference contribution
