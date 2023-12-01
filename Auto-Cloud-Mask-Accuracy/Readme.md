@@ -125,7 +125,7 @@ The result is two shapefiles:
 
 4- Create the confusion matrix
 <p align="center">
-  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/20230116_UK_final_matrix.png?raw=true">
+  <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/0230116_UK_final_matrix_1.png?raw=true">
 </p>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -145,7 +145,7 @@ accuracy 98.0%, over cloud detection 0.0%, under cloud detection 2.0%
 
 | Comparison             |  Confusion Matrix |
 :-------------------------:|:-------------------------:
-ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/20230116_UK_final_matrix_1.JPG?raw=true">
+ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/0230116_UK_final_matrix_1.JPG?raw=true">
 ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/20230116_UK_final_matrix.png?raw=true">
 
 Key outcomes of the analysis:
