@@ -87,8 +87,8 @@ The table below details our interpretation of the ACM mask for comparison with t
 | Label | ACM   classification   |
 |-------|------------------------|
 | 0     | NO_DATA                |
-| 1     | CLEAR		  	 |
-| 2     | CLOUD       		 |
+| 1     | CLEAR		  	           |
+| 2     | CLOUD       		       |
 
 ## HQco Interpretation
 HQco masks are delivered with two shapefiles:
@@ -132,6 +132,12 @@ The result is two shapefiles:
 <!-- RESULTS -->
 ## Results
 
+Key outcomes of the analysis:
+- EathDaily Cloud mask provides **15% higher accuracy** compared to public masks
+- EathDaily Cloud mask is **more than 3 times better** than public mask on over cloud detection 
+
+<img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/ACM_compare_to_other.JPG?raw=true">
+
 Following are the result this dataset (time process => 2min)
 
 Analysis of ACM vs HQco: accuracy 98.0%, over cloud detection 0.0%, under cloud detection 2.0%
@@ -143,16 +149,17 @@ Analysis of ACM vs HQco: accuracy 98.0%, over cloud detection 0.0%, under cloud 
 
 
 
-| Comparison             |  Confusion Matrix |
-:-------------------------:|:-------------------------:
-ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/0230116_UK_final_matrix_1.JPG?raw=true">
-ACM vs HQco for the data available on GitHub | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/20230116_UK_final_matrix.png?raw=true">
+| Comparison             | Accuracy (%) |  Confusion Matrix |
+:-------------------------:|:-------------------------:|:-------------------------:
+ACM vs HQco on the data available on GitHub | Accuracy 98.0%, over cloud detection 0.0%, under cloud detection 2.0% | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/0230116_UK_final_matrix_1.JPG?raw=true">
+ACM vs HQco on all Sentinel-2 images in France from January to April 2022 | Accuracy 92.6%, over cloud detection 4.4%, under cloud detection 3.0% | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/2022_FR_S2.png?raw=true">
+ACM vs HQco on all Sentinel-2 images in UK from January to April 2022 | Accuracy 92.9%, over cloud detection 4.2%, under cloud detection 2.9% | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/2022_UK_S2.png?raw=true">
+ACM vs HQco on all Sentinel-2 images in Sweden from February to May 2022 | Accuracy 87.1%, over cloud detection 10.6%, under cloud detection 2.4% | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/2022_SW_S2.png?raw=true">
+ACM vs HQco on all Landsat images in France from January to April 2022 | Accuracy 89.7%, over cloud detection 8.8%, under cloud detection 1.6% | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/2022_FR_S2.png?raw=true">
+ACM vs HQco on all Landsat images in UK from January to April 2022 | Accuracy 84.5%, over cloud detection 14.1%, under cloud detection 1.5% | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/2022_UK_L8.png?raw=true">
+ACM vs HQco on all Landsat images in Sweden from February to May 2022 | Accuracy 85.5%, over cloud detection 13.1%, under cloud detection 1.4% | <img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/2022_SW_L8.png?raw=true">
 
-Key outcomes of the analysis:
-- EathDaily Cloud mask provides **15% higher accuracy** compared to public masks
-- EathDaily Cloud mask is **more than 3 times better** than public mask on over cloud detection 
 
-<img src="https://github.com/GEOSYS/Studies-and-Analysis/blob/main/Auto-Cloud-Mask-Accuracy/Images/ACM_compare_to_other.JPG?raw=true">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
