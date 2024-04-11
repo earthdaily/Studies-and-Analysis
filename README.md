@@ -110,6 +110,7 @@ Here is various content shared during conferences and tradeshows
 
 Content available:
 - AWS Summit Toronto 2023 [See presentation](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/AWS-Summit-Toronto2023)
+- Estimation cover crop biomass [publication](https://www.mdpi.com/2072-4292/16/5/834)
 - More content coming soon...
 
 <p align="right">(<a href="#top">back to top</a>)</p>
