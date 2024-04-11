@@ -21,11 +21,11 @@
     <a href=https://earthdailyagro.com/><strong>Who we are</strong></a>
     <br />
     <br />
-    <a href=https://github.com/GEOSYS/Studies-and-Analysis/Project description</a>
+    <a href=https://github.com/earthdaily/Studies-and-Analysis/Project description</a>
     ·
-    <a href=https://github.com/GEOSYS/Studies-and-Analysis/issues>Report Bug</a>
+    <a href=https://github.com/earthdaily/Studies-and-Analysis/issues>Report Bug</a>
     ·
-    <a href=https://github.com/GEOSYS/Studies-and-Analysis/issues>Request Feature</a>
+    <a href=https://github.com/earthdaily/Studies-and-Analysis/issues>Request Feature</a>
   </p>
 </p>
 
@@ -109,7 +109,7 @@ Here is various content shared during conferences and tradeshows
 </p>
 
 Content available:
-- AWS Summit Toronto 2023 [See presentation](https://github.com/GEOSYS/Studies-and-Analysis/tree/main/AWS-Summit-Toronto2023)
+- AWS Summit Toronto 2023 [See presentation](https://github.com/earthdaily/Studies-and-Analysis/tree/main/AWS-Summit-Toronto2023)
 - Estimation cover crop biomass [publication](https://www.mdpi.com/2072-4292/16/5/834)
 - More content coming soon...
 
@@ -118,7 +118,7 @@ Content available:
 <!-- LICENSE -->
 ## License
 
-Distributed under the [MIT License](https://github.com/GEOSYS/Studies-and-Analysis/blob/main/LICENSE). 
+Distributed under the [MIT License](https://github.com/earthdaily/Studies-and-Analysis/blob/main/LICENSE). 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -132,7 +132,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 <!-- COPYRIGHT -->
 ## Copyrights
 
-© 2023 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
+© 2024 Geosys Holdings ULC, an Antarctica Capital portfolio company | All Rights Reserved.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -160,7 +160,7 @@ For any additonal information, please <a href="mailto: sales@earthdailyagro.com"
 [youtube-url]: https://img.shields.io/youtube/channel/views/UCy4X-hM2xRK3oyC_xYKSG_g?style=social
 [language-python-shiedl]: https://img.shields.io/badge/python-3.7-green?logo=python
 [language-python-url]: https://pypi.org/ 
-[GitStars-shield]: https://img.shields.io/github/stars/GEOSYS?style=social
-[GitStars-url]: https://img.shields.io/github/stars/GEOSYS?style=social
-[CITest-shield]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
-[CITest-url]: https://img.shields.io/github/workflow/status/GEOSYS/qgis-plugin/Continous%20Integration
+[GitStars-shield]: https://img.shields.io/github/stars/earthdaily?style=social
+[GitStars-url]: https://img.shields.io/github/stars/earthdaily?style=social
+[CITest-shield]: https://img.shields.io/github/workflow/status/earthdaily/qgis-plugin/Continous%20Integration
+[CITest-url]: https://img.shields.io/github/workflow/status/earthdaily/qgis-plugin/Continous%20Integration
