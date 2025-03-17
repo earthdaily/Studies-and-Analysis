@@ -13,7 +13,7 @@
     <img src=https://earthdailyagro.com/wp-content/uploads/2022/01/Logo.svg alt="Logo" width="400" height="200">
   </a>
 
- <h1 align="center">Next satellite acquisition monitoring</h3>
+ <h1 align="center">Predictive Coverage</h3>
 
   <p align="center">
     Next satellite acquisition highlighting how Earthdaily Agro supports their clients to anticipate next clear satellite image at field level
