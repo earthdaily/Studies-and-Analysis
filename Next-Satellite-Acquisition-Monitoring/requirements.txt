@@ -6,3 +6,12 @@ ipykernel
 python-dateutil
 pyshp
 pip
+getpass
+json
+python-dateutil
+shapefile
+shapely
+folium
+pathlib
+ipython
+python-dotenv
